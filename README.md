@@ -6,6 +6,7 @@ Pipeline
 
 ## Project Structure
 ### Single-cycle Folder
+```
 single-cycle
 ├── dmem.v                    // Data Memory Block State
 ├── imem.v                    // Instruction Memory Block State
@@ -32,9 +33,11 @@ single-cycle
 │   ├── riscvtest.s           // Test Example Assembly
 │   └── testbench.v           // Non-synthesizable testbench file
 └── top.v                     // Integration Module
-
+```
 
 ## Usage
+
+```
 
 ```
 
