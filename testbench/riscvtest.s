@@ -8,7 +8,7 @@
 #   add, sub, and, or, slt, addi, lw, sw, beq, jal
 # If successful, it should write the value 25 to address 100
 #
-        RISC-V Assembly         Description                 Address     Machine Code
+#       RISC-V Assembly         Description                 Address     Machine Code
 main:   addi x2, x0, 5          # x2 = 5                    0           00500113
         addi x3, x0, 12         # x3 = 12                   4           00C00193
         addi x7, x3, -9         # x7 = (12 - 9) = 3         8           FF718393
