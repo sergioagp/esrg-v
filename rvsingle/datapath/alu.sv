@@ -11,8 +11,8 @@ module alu(
     case(ALUControl)
         3'b000:     ALUResult = SrcA + SrcB; // add, addi
         3'b001:     ALUResult = SrcA - SrcB; // sub, subi
-        3'b010:     ALUResult = SrcA | SrcB; // or, ori
-        3'b011:     ALUResult = SrcA & SrcB; // and, andi
+        3'b010:     ALUResult = SrcA & SrcB; // and, andi
+        3'b011:     ALUResult = SrcA | SrcB; // or, ori
         3'b101:     ALUResult = SrcA < SrcB; // slt, slti
         default:    ALUResult = ALUResult;   // ???
     endcase
