@@ -15,8 +15,8 @@ module alu (
 		case (ALUControl)
 			3'b000: ALUResult = SrcA + SrcB;
 			3'b001: ALUResult = SrcA - SrcB;
-			3'b010: ALUResult = SrcA | SrcB;
-			3'b011: ALUResult = SrcA & SrcB;
+			3'b010: ALUResult = SrcA & SrcB;
+			3'b011: ALUResult = SrcA | SrcB;
 			3'b101: ALUResult = SrcA < SrcB;
 			default: ALUResult = ALUResult;
 		endcase
